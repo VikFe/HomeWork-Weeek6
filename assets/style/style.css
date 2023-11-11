@@ -2,21 +2,21 @@
     font-family: "TTMedium";
     font-style: normal;
     font-weight: normal;
-    src: local("Termina Test Medium"), url("../fonts/TerminaTest-Medium.woff") format("woff");
+    src: local("Termina Test Medium"), url("assets/fonts/TerminaTest-Medium.woff") format("woff");
     }
 
 @font-face {
     font-family: "TTRegular";
     font-style: normal;
     font-weight: normal;
-    src: local("Termina Test Regular"), url("../fonts/TerminaTest-Regular.woff") format("woff");
+    src: local("Termina Test Regular"), url("assets/fonts/TerminaTest-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "TTLight";
     font-style: normal;
     font-weight: normal;
-    src: local("Termina Test Light"), url("../fonts/TerminaTest-Light.woff") format("woff");
+    src: local("Termina Test Light"), url("assets/fonts/TerminaTest-Light.woff") format("woff");
 }
 
 body {
