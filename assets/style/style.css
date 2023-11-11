@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'TTMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Termina Test Medium'), url('/assets/fonts/TerminaTest-Medium.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'TTRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Termina Test Regular'), url('/assets/fonts/TerminaTest-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TTLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Termina Test Light'), url('/assets/fonts/TerminaTest-Light.woff') format('woff');
+}
+
+body {
+    margin: 0;
+}
+
+.header_nav {
+    font-size: 18px;
+    font-family: 'TTRegular', sans-serif ;
+    
+}
+
+.header_logo {
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+.menu_nav_rtp {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 1fr / 1fr minmax(auto, 400px) minmax(auto, 500px) 2fr;
+    color: black;
+    
+}
+
+.menu_nav_icon {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    justify-content: right;
+    margin-top: -12px;
+    
+}
+
+.text1 {
+    font-family: 'TTMedium', sans-serif;
+    font-size: 36px;
+    width: 500px;
+    position: absolute;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.img_cover {
+    width: 100%;
+    height: 258px;
+}
+
+.title_1 {
+    font-family: 'TTMedium', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+    padding-left: 300px;
+    
+    }
+
+    .title_2 {
+        display: grid;
+        font-family: 'TTMedium', sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+}
+
+.container_img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px ;
+        column-gap: 30px;
+        row-gap: 10px;
+        justify-content: center;
+        
+}
+
+.name {
+    font-family:'TTRegular', sans-serif;
+    font-size: 16px;
+}
+
+.title_3 {
+    font-family: 'TTMedium', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 200px;
+    column-gap: 30px;
+    padding-left: 400px;
+}
+
+.container_title {
+    font-family: 'TTRegular', sans-serif;
+    font-size: 16px;
+}
+
+.footer {
+    height: 402px;
+    background-color: black;
+
+}
+
+p {
+    font-family:'TTMedium', sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 546px;
+    height: 77px;
+    padding-top: 67px;
+    padding-left: 134px;
+}
+
+.email {
+    font-family: 'TTLight', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+    color: white;
+    padding: 134px;
+    
+}
+
+.column2 {
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    justify-content: center;
+    font-family: 'TTLight', sans-serif;
+    color: white;
+}
+
+.container_footer {
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    
+}
+
